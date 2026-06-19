@@ -61,16 +61,105 @@
 
  # Special ALU Operations
  
- POPCNT (Population Count) :  
+ # POPCNT (Population Count) :  
 
 - Counts the number of logic ‘1’ bits in the accumulator.
 
 Example : A = 11110010 → POPCNT = 5
 
-THRESHOLD Operation : 
+# THRESHOLD Operation : 
 
 - Evaluates whether the number of set bits in the accumulator is ≥ 5.
 
 Example : A = 11110010
 
 Number of 1s = 5 → Output = 1
+
+# Processor Architecture  
+#Core Components  
+- Program Counter (PC)
+- Memory Address Register (MAR)
+- Instruction Register (IR)
+- Instruction Memory
+- Data Memory
+- Accumulator (A)
+- Temporary Register (B)
+- Arithmetic Logic Unit (ALU)
+- Flag Register
+- Bus Multiplexer
+- FSM-based Control Unit
+- T-state Timing Counter
+
+# Memory Organization
+# Instruction Memory
+- 16 locations
+- 8-bit width
+- Harvard-separated instruction storage
+# Data Memory
+- 16 locations
+- 8-bit width
+- Independent from instruction memory
+
+# Instruction Execution Cycle
+# Fetch Phase
+
+# T0
+
+- PC → MAR
+- Control signals: CO, MI
+
+# T1
+
+- Instruction Memory → IR
+- PC increment
+- Control signals: RO, II, CE
+
+#Decode + Execute Example (ADD addr)
+
+#T2
+
+- Operand → MAR
+- Control signals: IO, MI
+
+# T3
+
+- Data Memory → Register B
+- Control signals: RO, BI
+
+# T4
+
+- ALU result → Accumulator
+- Flags updated
+- Control signals: EO, AI, FI
+
+# Flag Register
+ 
+# The CPU maintains three status flags
+
+- Carry Flag (C) → Set on arithmetic overflow  
+- Zero Flag (Z) → Set when ALU result is zero   
+- Threshold Flag (T) → Set by THRESHOLD operation
+
+# Future Enhancements
+
+- Stack Pointer implementation  
+- CALL / RET instructions  
+- Interrupt handling system  
+- UART communication interface  
+- Pipelined datapath architecture  
+- RISC-inspired instruction extensions
+
+# Conclusion
+
+This project demonstrates the design and implementation of a complete 8-bit Harvard inspired Architecture CPU using Verilog HDL.
+
+It extends classical educational CPU models by introducing:  
+
+- Separate instruction/data memories  
+- Advanced ALU operations (POPCNT, THRESHOLD)  
+- Multi-cycle FSM-based control logic
+
+# References
+Ben Eater – Digital Computer Series
+Computer Architecture Fundamentals
+Verilog HDL Design Principles
