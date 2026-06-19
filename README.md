@@ -25,7 +25,7 @@
 - 7-Segment Display Output Interface  
 - Custom ALU supporting advanced operations  
 
-#  Supported Instruction Set 
+# Supported Instruction Set
 Opcode	Instruction	Description
 0000	NOP	No Operation
 0001	LDA	Load accumulator from Data RAM
@@ -43,13 +43,3 @@ Opcode	Instruction	Description
 1101	THRESHOLD	Threshold-based evaluation
 1110	SHL	Logical shift left
 1111	HLT	Halt processor
-🧮 ALU Operation Set
-ALU_SEL	Operation
-000	ADD
-001	SUB
-010	AND
-011	OR
-100	SHL
-101	POPCNT
-110	THRESHOLD
-111	PASS
