@@ -45,3 +45,17 @@
 | 1101   | THRESHOLD   | Threshold-based evaluation               |
 | 1110   | SHL         | Logical shift left                       |
 | 1111   | HLT         | Halt processor                           |
+
+# ALU Operation Set
+
+| ALU_SEL | Operation |
+| ------- | --------- |
+| 000     | ADD       |
+| 001     | SUB       |
+| 010     | AND       |
+| 011     | OR        |
+| 100     | SHL       |
+| 101     | POPCNT    |
+| 110     | THRESHOLD |
+| 111     | PASS      |
+
