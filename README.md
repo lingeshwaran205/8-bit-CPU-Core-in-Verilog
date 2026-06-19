@@ -11,14 +11,14 @@
 8-bit datapath architecture  
 Harvard memory organization  
 16 × 8 Instruction Memory  
-16 × 8 Data Memory
-4-bit Program Counter (PC)
-4-bit Memory Address Register (MAR)
-Instruction Register (IR)
-Accumulator-based execution model
-Temporary Register (B)
-Multi-cycle FSM-based Control Unit
-Flag Register (Carry, Zero, Threshold)
-External 8-bit Input Port
-7-Segment Display Output Interface
-Custom ALU supporting advanced operations
+16 × 8 Data Memory  
+4-bit Program Counter (PC)  
+4-bit Memory Address Register (MAR)  
+Instruction Register (IR)  
+Accumulator-based execution model  
+Temporary Register (B)  
+Multi-cycle FSM-based Control Unit  
+Flag Register (Carry, Zero, Threshold)  
+External 8-bit Input Port  
+7-Segment Display Output Interface  
+Custom ALU supporting advanced operations  
