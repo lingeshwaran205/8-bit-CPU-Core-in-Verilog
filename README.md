@@ -1,6 +1,6 @@
 # 8-bit CPU Core in Verilog
 
- Project Overview (FIXED)
+ Project Overview 
 
 - This project implements an 8-bit custom CPU in Verilog HDL with separate instruction and data memories, inspired by Harvard-style memory organization.
 
