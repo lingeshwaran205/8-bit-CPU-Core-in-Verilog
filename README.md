@@ -24,7 +24,7 @@
 - Flag Register (Carry, Zero, Threshold)  
 - External 8-bit Input Port  
 - 7-Segment Display Output Interface  
-- Custom ALU supporting advanced operations
+- Custom ALU supporting advanced operations  
   
 
  # Supported Instruction Set
