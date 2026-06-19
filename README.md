@@ -27,7 +27,8 @@
 - Custom ALU supporting advanced operations  
   
 
- # Supported Instruction Set
+ # Supported Instruction Set  
+ 
 
 | Opcode | Instruction | Description                              |
 | ------ | ----------- | ---------------------------------------- |
