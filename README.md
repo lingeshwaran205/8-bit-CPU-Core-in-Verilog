@@ -1,4 +1,4 @@
-# 8-bit CPU Core in Verilog
+# 8-bit CPU Core in Verilog 
 
 ## Project Overview 
 
@@ -7,6 +7,7 @@
 - Unlike traditional SAP-1 style educational processors that use a unified memory structure, this design separates instruction and data storage to improve clarity of execution, modularity, and architectural scalability.
 
 - The processor operates using a multi-cycle control unit based on T-state sequencing, where each instruction progresses through fetch, decode, and execute phases under a deterministic timing control system.
+  
 
 # Key Features
 
@@ -24,6 +25,7 @@
 - External 8-bit Input Port  
 - 7-Segment Display Output Interface  
 - Custom ALU supporting advanced operations
+  
 
  # Supported Instruction Set
 
@@ -46,6 +48,7 @@
 | 1110   | SHL         | Logical shift left                       |
 | 1111   | HLT         | Halt processor                           |
 
+
 # ALU Operation Set  
 
 | ALU_SEL | Operation |
@@ -58,6 +61,7 @@
 | 101     | POPCNT    |
 | 110     | THRESHOLD |
 | 111     | PASS      |  
+
 
  # Special ALU Operations
  
@@ -75,6 +79,7 @@ Example : A = 11110010
 
 Number of 1s = 5 → Output = 1
 
+
 # Processor Architecture  
 ## Core Components  
 - Program Counter (PC)
@@ -90,6 +95,7 @@ Number of 1s = 5 → Output = 1
 - FSM-based Control Unit
 - T-state Timing Counter
 
+
 # Memory Organization
 ## Instruction Memory
 - 16 locations
@@ -99,6 +105,7 @@ Number of 1s = 5 → Output = 1
 - 16 locations
 - 8-bit width
 - Independent from instruction memory
+
 
 # Instruction Execution Cycle
 
@@ -141,6 +148,7 @@ Number of 1s = 5 → Output = 1
 - Zero Flag (Z) → Set when ALU result is zero   
 - Threshold Flag (T) → Set by THRESHOLD operation
 
+
 # Future Enhancements
 
 - Stack Pointer implementation  
@@ -149,6 +157,7 @@ Number of 1s = 5 → Output = 1
 - UART communication interface  
 - Pipelined datapath architecture  
 - RISC-inspired instruction extensions
+
 
 # Conclusion
 
@@ -159,6 +168,7 @@ It extends classical educational CPU models by introducing:
 - Separate instruction/data memories  
 - Advanced ALU operations (POPCNT, THRESHOLD)  
 - Multi-cycle FSM-based control logic
+
 
 # References
 Ben Eater – Digital Computer Series
