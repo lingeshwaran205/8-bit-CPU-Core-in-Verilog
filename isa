@@ -21,7 +21,7 @@
 | 1111   | HLT         | Halt processor                           |
 
 
-# ALU Operation Set  
+# ALU Operation Set   
 
 | ALU_SEL | Operation |
 | ------- | --------- |
