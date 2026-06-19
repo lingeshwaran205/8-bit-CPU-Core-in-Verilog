@@ -169,13 +169,11 @@ Number of 1s = 5 → Output = 1
 
 # Conclusion
 
-This project demonstrates the design and implementation of a complete 8-bit Harvard inspired Architecture CPU using Verilog HDL.
+## 🎯 Conclusion
 
-It extends classical educational CPU models by introducing:  
+- This project demonstrates a complete implementation of an 8-bit CPU core using Verilog HDL, incorporating a structured datapath, FSM-based control unit, and custom instruction set architecture.
 
-- Separate instruction/data memories  
-- Advanced ALU operations (POPCNT, THRESHOLD)  
-- Multi-cycle FSM-based control logic
+- The design focuses on understanding real CPU behavior through a multi-cycle execution model, making it suitable for FPGA implementation and computer architecture learning.
 
 
 # References
