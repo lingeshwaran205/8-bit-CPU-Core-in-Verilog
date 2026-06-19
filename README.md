@@ -1,6 +1,6 @@
 # 8-bit CPU Core in Verilog
 
- Project Overview 
+## Project Overview 
 
 - This project implements an 8-bit custom CPU in Verilog HDL with separate instruction and data memories, inspired by Harvard-style memory organization.
 
@@ -61,13 +61,13 @@
 
  # Special ALU Operations
  
- # POPCNT (Population Count) :  
+ ## POPCNT (Population Count) :  
 
 - Counts the number of logic ‘1’ bits in the accumulator.
 
 Example : A = 11110010 → POPCNT = 5
 
-# THRESHOLD Operation : 
+## THRESHOLD Operation : 
 
 - Evaluates whether the number of set bits in the accumulator is ≥ 5.
 
@@ -76,7 +76,7 @@ Example : A = 11110010
 Number of 1s = 5 → Output = 1
 
 # Processor Architecture  
-#Core Components  
+## Core Components  
 - Program Counter (PC)
 - Memory Address Register (MAR)
 - Instruction Register (IR)
@@ -91,42 +91,43 @@ Number of 1s = 5 → Output = 1
 - T-state Timing Counter
 
 # Memory Organization
-# Instruction Memory
+## Instruction Memory
 - 16 locations
 - 8-bit width
 - Harvard-separated instruction storage
-# Data Memory
+## Data Memory
 - 16 locations
 - 8-bit width
 - Independent from instruction memory
 
 # Instruction Execution Cycle
-# Fetch Phase
 
-# T0
+## Fetch Phase
+
+### T0
 
 - PC → MAR
 - Control signals: CO, MI
 
-# T1
+### T1
 
 - Instruction Memory → IR
 - PC increment
 - Control signals: RO, II, CE
 
-#Decode + Execute Example (ADD addr)
+## Decode + Execute Example (ADD addr)
 
-#T2
+### T2
 
 - Operand → MAR
 - Control signals: IO, MI
 
-# T3
+### T3
 
 - Data Memory → Register B
 - Control signals: RO, BI
 
-# T4
+### T4
 
 - ALU result → Accumulator
 - Flags updated
@@ -134,7 +135,7 @@ Number of 1s = 5 → Output = 1
 
 # Flag Register
  
-# The CPU maintains three status flags
+## The CPU maintains three status flags
 
 - Carry Flag (C) → Set on arithmetic overflow  
 - Zero Flag (Z) → Set when ALU result is zero   
