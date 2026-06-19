@@ -7,7 +7,7 @@
 
 *The processor operates using a multi-cycle control unit based on T-state sequencing, where each instruction progresses through fetch, decode, and execute phases under a deterministic timing control system.
 
-⚙️ # Key Features
+# Key Features
 8-bit datapath architecture  
 Harvard memory organization  
 16 × 8 Instruction Memory  
