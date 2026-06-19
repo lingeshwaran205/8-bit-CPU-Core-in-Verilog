@@ -59,3 +59,18 @@
 | 110     | THRESHOLD |
 | 111     | PASS      |  
 
+ # Special ALU Operations
+ 
+ POPCNT (Population Count) :  
+
+- Counts the number of logic ‘1’ bits in the accumulator.
+
+Example : A = 11110010 → POPCNT = 5
+
+THRESHOLD Operation : 
+
+- Evaluates whether the number of set bits in the accumulator is ≥ 5.
+
+Example : A = 11110010
+
+Number of 1s = 5 → Output = 1
