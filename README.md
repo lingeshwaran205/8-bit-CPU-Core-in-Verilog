@@ -172,6 +172,6 @@ It extends classical educational CPU models by introducing:
 
 
 # References
-Ben Eater – Digital Computer Series
-Computer Architecture Fundamentals
-Verilog HDL Design Principles
+Ben Eater – Digital Computer Series  
+Computer Architecture Fundamentals  
+Verilog HDL Design Principles  
