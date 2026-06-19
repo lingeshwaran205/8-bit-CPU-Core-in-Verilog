@@ -46,7 +46,7 @@
 | 1110   | SHL         | Logical shift left                       |
 | 1111   | HLT         | Halt processor                           |
 
-# ALU Operation Set
+# ALU Operation Set  
 
 | ALU_SEL | Operation |
 | ------- | --------- |
@@ -57,5 +57,5 @@
 | 100     | SHL       |
 | 101     | POPCNT    |
 | 110     | THRESHOLD |
-| 111     | PASS      |
+| 111     | PASS      |  
 
