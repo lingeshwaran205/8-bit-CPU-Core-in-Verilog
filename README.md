@@ -7,6 +7,7 @@
 - Unlike traditional SAP-1 style educational processors that use a unified memory structure, this design separates instruction and data storage to improve clarity of execution, modularity, and architectural scalability.
 
 - The processor operates using a multi-cycle control unit based on T-state sequencing, where each instruction progresses through fetch, decode, and execute phases under a deterministic timing control system.
+
   
 
 <img width="1600" height="959" alt="image" src="https://github.com/user-attachments/assets/d36f62db-b1b4-4d7e-af74-34d6483fb6e6" />
