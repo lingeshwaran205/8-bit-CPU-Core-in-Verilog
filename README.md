@@ -97,6 +97,9 @@ Number of 1s = 5 → Output = 1
 - T-state Timing Counter
 
 
+<img width="491" height="472" alt="WhatsApp Image 2026-06-19 at 10 05 40 PM" src="https://github.com/user-attachments/assets/61378410-9c6a-4d79-9cd2-42990ab6a93f" />
+
+
 # Memory Organization
 ## Instruction Memory
 - 16 locations
